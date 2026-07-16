@@ -9,7 +9,7 @@ Provided here is code used to turn ICESat-2 UMD-RDA along-track data into monthl
 
 "Step4_UMDRDA_Grid_Fix_Outliers.py" uses the monthly anomalies and sea ice concentration data to identify and remove outliers, producing a final monthly gridded netcdf file
 
-The gridded deformation data product is available at PANGAEA. The DOIs for the different resolution products are:
+The gridded deformation data product is available at PANGAEA (https://www.pangaea.de). The DOIs for the different resolution products are:
 
 25 km: https://doi.org/10.1594/PANGAEA.990274 \
 10 km: https://doi.org/10.1594/PANGAEA.990265 \
