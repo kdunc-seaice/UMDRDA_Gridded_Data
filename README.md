@@ -19,9 +19,9 @@ The product "User Guide" can be found at: https://download.pangaea.de/reference/
 
 Please email kduncan@umd.edu for any questions related to this repository
 
+# References
 Please reference the following publication, in addition to the dataset, when using this data:
 
-# References
 Duncan, K., & Farrell, S. L. (2022). Determining variability in Arctic sea ice pressure ridge topography with ICESat-2.Geophysical Research Letters, 49, e2022GL100272. https://doi.org/10.1029/2022GL100272
 
 # Acknowledgements & Funding:
