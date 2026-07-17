@@ -1,5 +1,5 @@
 # UMDRDA_Gridded_Data
-Provided here is code used to turn ICESat-2 UMD-RDA along-track data into monthly grids, calculate monthly climatologies, monthly anomalies, and the removal of outliers. Gridded data files are calculated at three spatial resolutions of 25, 10, and 3.125 km.
+Provided here is code used to turn ICESat-2 UMD-RDA along-track data into monthly grids, calculate monthly climatologies, monthly anomalies, and the removal of outliers. Gridded data files are calculated at three spatial resolutions of 25 km, 10 km, and 3.125 km.
 
 "Step1_Arctic_Grid_netCDF_Monthly_PyGMT_FINAL.py" contains code for gridding the ICESat-2 UMD-RDA along-track data using PyGMT
 
