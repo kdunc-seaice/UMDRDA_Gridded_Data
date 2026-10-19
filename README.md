@@ -1,16 +1,19 @@
 # UMDRDA_Gridded_Data
 Provided here is code used to turn ICESat-2 UMD-RDA along-track data into monthly grids, calculate monthly climatologies, monthly anomalies, and the removal of outliers. Gridded data files are calculated at three spatial resolutions of 25 km, 10 km, and 3.125 km.
 
-# Step 1: Grid Data
+# Step 1: UMD-RDA
+"Process_ATL03_Surface_Finding.py" contains code for the along-track processing of ICESat-2 ATL03 files with the University of Maryland-Ridge Detection Algorithm (UMD-RDA)
+
+# Step 2: Grid Data
 "Arctic_Grid_netCDF_Monthly_PyGMT_FINAL.py" contains code for gridding the ICESat-2 UMD-RDA along-track data using PyGMT
 
-# Step 2: Calculate Climatology
+# Step 3: Calculate Climatology
 "UMDRDA_Grid_Monthly_Climatology.py" calculates monthly climatologies for January-December for the ICESat-2 period of October 2018 to September 2025
 
-# Step 3: Calculate Monthly Anomaly
+# Step 4: Calculate Monthly Anomaly
 "UMDRDA_Grid_Monthly_Anomaly.py" calculates monthly anomalies based on the monthly climatologies from Step 2
 
-# Step 4: Identify Outliers
+# Step 5: Identify Outliers
 "UMDRDA_Grid_Fix_Outliers.py" uses the monthly anomalies and sea ice concentration data to identify and remove outliers, producing a final monthly gridded netcdf file
 
 The gridded deformation data product is available at PANGAEA (https://www.pangaea.de). The DOIs for the different resolution products are:
