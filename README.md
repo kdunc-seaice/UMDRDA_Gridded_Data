@@ -2,7 +2,7 @@
 Provided here is code used to turn ICESat-2 UMD-RDA along-track data into monthly grids, calculate monthly climatologies, monthly anomalies, and the removal of outliers. Gridded data files are calculated at three spatial resolutions of 25 km, 10 km, and 3.125 km.
 
 ### Step 1: UMD-RDA
-"Process_ATL03_Surface_Finding.py" contains code for the along-track processing of ICESat-2 ATL03 files with the University of Maryland-Ridge Detection Algorithm (UMD-RDA)
+"Process_ATL03_Surface_Finding.py" contains code for the along-track processing of ICESat-2 ATL03 files with the University of Maryland-Ridge Detection Algorithm (UMD-RDA). Please read the "Code Summary" and additional information that is provided at the top of the file before using.
 
 ### Step 2: Grid Data
 "Arctic_Grid_netCDF_Monthly_PyGMT_FINAL.py" contains code for gridding the ICESat-2 UMD-RDA along-track data using PyGMT
