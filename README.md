@@ -1,8 +1,12 @@
 # UMDRDA_Gridded_Data
-Provided here is code used to turn ICESat-2 UMD-RDA along-track data into monthly grids, calculate monthly climatologies, monthly anomalies, and the removal of outliers. Gridded data files are calculated at three spatial resolutions of 25 km, 10 km, and 3.125 km.
+Provided here is code used to process ICESat-2 ATL03 files using the University of Maryland-Ridge Detection Algorithm (UMD-RDA) and turn the ICESat-2 UMD-RDA along-track data into monthly grids, calculate monthly climatologies, monthly anomalies, and the removal of outliers. Gridded data files are calculated at three spatial resolutions of 25 km, 10 km, and 3.125 km.
 
 ### Step 1: UMD-RDA
-"Process_ATL03_Surface_Finding.py" contains code for the along-track processing of ICESat-2 ATL03 files with the University of Maryland-Ridge Detection Algorithm (UMD-RDA). Please read the "Code Summary" and additional information that is provided at the top of the file before using.
+"Process_ATL03_Surface_Finding.py" contains code for the along-track processing of ICESat-2 ATL03 files with the University of Maryland-Ridge Detection Algorithm (UMD-RDA). 
+
+Please read the "Code Summary" and additional information that is provided at the top of the file before using. 
+
+Please see the "example_output" folder within this repository for a figure showing a profile of surface elevation obtained using the output from the "Process_ATL03_Surface_Finding.py" code when using the ATL03 file "ATL03_20190422132750_03710304_007_01.h5", acquired on April 22, 2019.
 
 ### Step 2: Grid Data
 "Arctic_Grid_netCDF_Monthly_PyGMT_FINAL.py" contains code for gridding the ICESat-2 UMD-RDA along-track data using PyGMT
@@ -31,6 +35,6 @@ Please reference the following publication, in addition to the dataset, when usi
 
 Duncan, K., & Farrell, S. L. (2022). Determining variability in Arctic sea ice pressure ridge topography with ICESat-2.Geophysical Research Letters, 49, e2022GL100272. https://doi.org/10.1029/2022GL100272
 
-# Acknowledgements & Funding:
+### Acknowledgements & Funding:
 This work was supported by NASA Cryosphere Program Grant 80NSSC24K1450 and by NOAA Grant NA24NESX432C0001 (Cooperative Institute for Satellite Earth System Studies – CISESS) at the University of Maryland/ESSIC.
 
